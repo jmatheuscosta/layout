@@ -1,4 +1,4 @@
-package com.android.relative_layout;
+package com.android.layout;
 
 import org.junit.Test;
 
