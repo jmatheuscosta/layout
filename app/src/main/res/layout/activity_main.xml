@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6A6A6A"
     tools:context=".MainActivity">
 
     <ImageView
@@ -30,7 +31,7 @@
         android:id="@+id/editTextText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="5dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="@+id/textView3"
@@ -40,7 +41,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="5dp"
         android:text="Senha:"
         android:textSize="25dp"
         app:layout_constraintStart_toStartOf="@+id/editTextText2"
@@ -50,7 +51,7 @@
         android:id="@+id/editTextTextPassword3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="5dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="@+id/textView4"
@@ -73,9 +74,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:backgroundTint="#FF201E1E"
-        android:text="Button"
-        android:textColorHighlight="#FFFFFF"
-        android:textColorLink="#FFFFFF"
+        android:text="login"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword3"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
 
